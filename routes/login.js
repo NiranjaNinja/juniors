@@ -3,7 +3,7 @@ var router = express.Router();
 
 var logincontroller = require('../controllers/logincontroller');
 
-console.log("haiii");
+console.log("helloooo");
 router.post('/',logincontroller.authenticate);
 
 module.exports = router;
